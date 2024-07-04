@@ -11,10 +11,10 @@
     <div class="main-body">
         <div class="calc">
             <div class="output">
-                <input class="screen" type="text">
+                <input type="text" id="screen" >
             </div>
             <div class="buttons">
-                <button onclick="clear()" class="btn">C</button>
+                <button onclick="btnclear()" class="btn">C</button>
                 <div class="row">
                     <button onclick="buttonclick(7)" class="btn">7</button>
                     <button onclick="buttonclick(8)" class="btn">8</button>
@@ -37,7 +37,7 @@
                     <button onclick="buttonclick('.')" class="btn">.</button>
                     <button onclick="buttonclick(0)" class="btn">0</button>
                     <button onclick="buttonclick('+')" class="btn">+</button>
-                    <button onclick="buttonclick('=')" class="btn">=</button>
+                    <button onclick="equalclick()" class="btn">=</button>
 
                 </div>
             </div>
